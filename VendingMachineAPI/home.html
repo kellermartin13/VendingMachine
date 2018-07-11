@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Vending Machine</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/vendingMachine.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Quicksand" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Vending Machine</h1>
+    <hr />
+
+    <div class="row">
+      <div class="col-md-9" id=vendingOptionsDiv>
+        <!-- BUTTONS GO HERE -->
+      </div>
+      <div class="col-md-3" id="formDiv">
+        <form class="form-horizontal" role="form">
+
+          <div class="form-group" id="totalMoneyInDiv">
+            <label for="totalMoneyIn" class="col-md-12">
+          <h2>Total $ In</h2>
+        </label>
+            <div class="col-md-offset-3 col-md-6">
+              <input readOnly type="text" class="form-control" id="amountEntered" placeholder="$0.00" />
+            </div>
+            <div id="addMoneyButtonDiv">
+              <div class="col-md-6">
+                <button type="button" id="addDollar" class="btn btn-default">
+              Add Dollar
+            </button>
+              </div>
+              <div class="col-md-6">
+                <button type="button" id="addQuarter" class="btn btn-default">
+              Add Quarter
+            </button>
+              </div>
+              <div class="col-md-6">
+                <button type="button" id="addDime" class="btn btn-default">
+              Add Dime
+            </button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <button type="button" id="addNickel" class="btn btn-default">
+            Add Nickel
+          </button>
+
+            </div>
+          </div>
+          <hr />
+
+          <div class="form-group" id="messagesDiv">
+            <label for="messages" class="col-md-12">
+            <h2>Messages</h2>
+          </label>
+            <div class="col-md-12">
+              <input readonly type="text" class="form-control" id="messagesBox">
+            </div>
+            <div id="itemSelectedBox">
+              <label for="itemSelected" class="col-md-3 control-label">
+                <h3>Item:</h3>
+              </label>
+              <div class="col-md-8">
+                <input readonly type="text" class="form-control" id="itemSelected">
+              </div>
+            </div>
+            <div class="col-md-offset-3 col-md-8">
+              <button type="button" id="makePurchaseButton" class="btn btn-default">
+              Make Purchase
+            </button>
+            </div>
+          </div>
+          <hr />
+          <div class="form-group" id="changeDiv">
+            <label for="change" class="col-md-12">
+            <h2>Change</h2>
+          </label>
+            <div class="col-md-12">
+              <input readOnly type="text" class="form-control" id="changeBox">
+            </div>
+            <div class="col-md-offset-3 col-md-8">
+              <button type="button" id="changeReturnButton" class="btn btn-default">
+              Change Return
+            </button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+.container {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  background-color: #79ADDC;
+  font-weight: bolder;
+}
+
+h1, h2 {
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: #0B132B;
+}
+
+h3 {
+  font-family: 'Lobster', cursive;
+  color: #0B132B;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+/* .itemButton:hover {
+  background-color: #FA7921;
+}
+
+table:hover {
+  background-color: #FA7921;
+} */
+
+table {
+  background-color: #79ADDC;
+}
+
+button {
+  margin: 4%;
+  font-size: 7;
+
+}
+
+hr {
+  border-top: 1px solid #3A506B;
+}
+
+#formDiv button {
+  border: 1px solid #3A506B;
+  box-shadow: 3px 5px #0B132B;
+  font-weight: bolder;
+
+}
+
+.itemButton {
+  margin: 3%;
+  /* padding: 5%; */
+  height: 145px;
+  width: 195px;
+  border-color: #0B132B;
+  background-color: #0B132B;
+  box-shadow: 6px 8px #3A506B;
+}
+
+.itemTable {
+  width: 100%;
+  height: 100%;
+}
+
+.tableId {
+  float: left;
+  font-size: 36px;
+  margin-left: 5%;
+  font-weight: bold;
+  font-family: 'Lobster', cursive;
+}
+
+.tableName {
+  font-family: 'Lobster', cursive;
+  font-size: 22px;
+}
+
+.tablePrice {
+  font-weight: bolder;
+}
+
+.tableQuantity {
+  font-weight: bolder;
+}
+
+#vendingOptionsDiv {
+  padding-left: 10%;
+}
+
+#totalMoneyInDiv button {
+  margin: 5%;
+  width: 100%;
+ }
+
+ #messagesDiv input {
+   margin: 4%;
+ }
